@@ -243,7 +243,7 @@ stages:
     steps:
     - task: InstallSSHKey@0
       inputs:
-        hostName: "github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=="
+        hostName: "github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDErK+r7muTYlYnalnwPquLugZYGT7+TEisnPwxe8JYdBUnS5reAAzl3334t5XhsA9gMHeFoSqPe4AY3anpdfHz/J/0Ov0q29srzoDmiVKJguRGbOGD6ZOPDQrN4yG1pkvFv5RItAsfhB+TwvgGXxtK5bz1hf56F0XgzYPr1ODHHZklu9NEMDd0MAbOz1gXYEbQb5tVzjN6ewrjsOoQ4vXCxmLjOveDXe/HWf9GC+qaQOcwCS5AVE3w4nSX6+zM/xu0buc5ObAh4NJ9c3leKAkh4TjCw3r3MRBz0xGkHGewG26ikgAR4aNjpsh8ZX9lKH1lp/INa7+Nr9ZzdACEaI9ay3ZrI2wuWcqWVcVbg5vfcS/U78m+6ZPclubXtnUwJmcxeU2EUSzyNLzWRx2fd3e++1geGffJza5ovKgiwq5GYMllmO9ebRxttYChSoSp1U0xBFmxQzee4mo2xLJgpweCUarCXZDoqH014/KBbYkzmFLFWqaqmJAAS3lKmtuYOQU="
         sshPublicKey: "$(FilterExamplePublicKey)"
         sshPassphrase: "$(SshDeployKeyPassphrase)"
         sshKeySecureFile: "$(FilterExamplePrivateKey)"
@@ -261,7 +261,7 @@ stages:
     steps:
     - task: InstallSSHKey@0
       inputs:
-        hostName: "github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=="
+        hostName: "github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDErK+r7muTYlYnalnwPquLugZYGT7+TEisnPwxe8JYdBUnS5reAAzl3334t5XhsA9gMHeFoSqPe4AY3anpdfHz/J/0Ov0q29srzoDmiVKJguRGbOGD6ZOPDQrN4yG1pkvFv5RItAsfhB+TwvgGXxtK5bz1hf56F0XgzYPr1ODHHZklu9NEMDd0MAbOz1gXYEbQb5tVzjN6ewrjsOoQ4vXCxmLjOveDXe/HWf9GC+qaQOcwCS5AVE3w4nSX6+zM/xu0buc5ObAh4NJ9c3leKAkh4TjCw3r3MRBz0xGkHGewG26ikgAR4aNjpsh8ZX9lKH1lp/INa7+Nr9ZzdACEaI9ay3ZrI2wuWcqWVcVbg5vfcS/U78m+6ZPclubXtnUwJmcxeU2EUSzyNLzWRx2fd3e++1geGffJza5ovKgiwq5GYMllmO9ebRxttYChSoSp1U0xBFmxQzee4mo2xLJgpweCUarCXZDoqH014/KBbYkzmFLFWqaqmJAAS3lKmtuYOQU="
         sshPublicKey: "$(DataPlaneApiPublicKey)"
         sshPassphrase: "$(SshDeployKeyPassphrase)"
         sshKeySecureFile: "$(DataPlaneApiPrivateKey)"
@@ -279,7 +279,7 @@ stages:
     steps:
     - task: InstallSSHKey@0
       inputs:
-        hostName: "github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=="
+        hostName: "github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDErK+r7muTYlYnalnwPquLugZYGT7+TEisnPwxe8JYdBUnS5reAAzl3334t5XhsA9gMHeFoSqPe4AY3anpdfHz/J/0Ov0q29srzoDmiVKJguRGbOGD6ZOPDQrN4yG1pkvFv5RItAsfhB+TwvgGXxtK5bz1hf56F0XgzYPr1ODHHZklu9NEMDd0MAbOz1gXYEbQb5tVzjN6ewrjsOoQ4vXCxmLjOveDXe/HWf9GC+qaQOcwCS5AVE3w4nSX6+zM/xu0buc5ObAh4NJ9c3leKAkh4TjCw3r3MRBz0xGkHGewG26ikgAR4aNjpsh8ZX9lKH1lp/INa7+Nr9ZzdACEaI9ay3ZrI2wuWcqWVcVbg5vfcS/U78m+6ZPclubXtnUwJmcxeU2EUSzyNLzWRx2fd3e++1geGffJza5ovKgiwq5GYMllmO9ebRxttYChSoSp1U0xBFmxQzee4mo2xLJgpweCUarCXZDoqH014/KBbYkzmFLFWqaqmJAAS3lKmtuYOQU="
         sshPublicKey: "$(GoControlPlanePublicKey)"
         sshPassphrase: "$(SshDeployKeyPassphrase)"
         sshKeySecureFile: "$(GoControlPlanePrivateKey)"
@@ -655,7 +655,7 @@ stages:
 
     - task: InstallSSHKey@0
       inputs:
-        hostName: "github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=="
+        hostName: "github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDErK+r7muTYlYnalnwPquLugZYGT7+TEisnPwxe8JYdBUnS5reAAzl3334t5XhsA9gMHeFoSqPe4AY3anpdfHz/J/0Ov0q29srzoDmiVKJguRGbOGD6ZOPDQrN4yG1pkvFv5RItAsfhB+TwvgGXxtK5bz1hf56F0XgzYPr1ODHHZklu9NEMDd0MAbOz1gXYEbQb5tVzjN6ewrjsOoQ4vXCxmLjOveDXe/HWf9GC+qaQOcwCS5AVE3w4nSX6+zM/xu0buc5ObAh4NJ9c3leKAkh4TjCw3r3MRBz0xGkHGewG26ikgAR4aNjpsh8ZX9lKH1lp/INa7+Nr9ZzdACEaI9ay3ZrI2wuWcqWVcVbg5vfcS/U78m+6ZPclubXtnUwJmcxeU2EUSzyNLzWRx2fd3e++1geGffJza5ovKgiwq5GYMllmO9ebRxttYChSoSp1U0xBFmxQzee4mo2xLJgpweCUarCXZDoqH014/KBbYkzmFLFWqaqmJAAS3lKmtuYOQU="
         sshPublicKey: "$(DocsPublicKey)"
         sshPassphrase: "$(SshDeployKeyPassphrase)"
         sshKeySecureFile: "$(DocsPrivateKey)"
